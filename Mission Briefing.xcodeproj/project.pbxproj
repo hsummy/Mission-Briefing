@@ -41,7 +41,7 @@
 		F32465AA1A69663E00A6A3CA /* Mission BriefingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mission BriefingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32465AF1A69663E00A6A3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F32465B01A69663E00A6A3CA /* Mission_BriefingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mission_BriefingTests.m; sourceTree = "<group>"; };
-		F361075F1A699B59003E32D5 /* MissionBriefing.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MissionBriefing.txt; sourceTree = "<group>"; };
+		F361075F1A699B59003E32D5 /* MissionBriefing.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MissionBriefing.txt; path = ../MissionBriefing.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,6 @@
 		F32465881A69663E00A6A3CA = {
 			isa = PBXGroup;
 			children = (
-				F361075F1A699B59003E32D5 /* MissionBriefing.txt */,
 				F32465931A69663E00A6A3CA /* Mission Briefing */,
 				F32465AD1A69663E00A6A3CA /* Mission BriefingTests */,
 				F32465921A69663E00A6A3CA /* Products */,
@@ -84,6 +83,7 @@
 		F32465931A69663E00A6A3CA /* Mission Briefing */ = {
 			isa = PBXGroup;
 			children = (
+				F361075F1A699B59003E32D5 /* MissionBriefing.txt */,
 				F32465981A69663E00A6A3CA /* AppDelegate.h */,
 				F32465991A69663E00A6A3CA /* AppDelegate.m */,
 				F324659B1A69663E00A6A3CA /* MissionBriefingViewController.h */,
